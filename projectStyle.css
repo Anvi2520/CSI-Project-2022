@@ -1,0 +1,50 @@
+body{
+        background-image:url(projectbg1.jpg);
+        background-size:95%;
+}
+.IDnumber{
+    width :200px;
+    height:40px;
+    background-color:#f3f1ef;
+    color:rgb(0, 0, 0);
+    font-family :"calibri";
+    font-size:18px;
+    border-radius :2px;
+    border:10px;
+    border-color: black;
+}
+.form-submit-button {
+    
+        color: #fff;
+        width :250px;
+    height:50px;
+        border: 3px solid #36c2c2;
+        font-family :"calibri";
+        font-size:18px;
+        border-radius :7px;
+        background-image: -webkit-linear-gradient(30deg, #36c2c2 50%, transparent 50%);
+        background-image: linear-gradient(30deg, #36c2c2 50%, transparent 50%);
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position: 0%;
+        -webkit-transition: background 300ms ease-in-out;
+        transition: background 300ms ease-in-out;
+      }
+      .form-submit-button:hover {
+        font-family :"calibri";
+        font-size:18px;
+        border-radius :9px;
+        width :250px;
+        height:60px;
+        background-position: 100%;
+        color: #36c2c2;
+      }
+.Final{
+    border:1px solid black;
+    border:none;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px 5px rgb(213, 214, 209);
+    padding:15px;
+    width:700px;
+    background-color: rgb(255, 255, 255);
+}

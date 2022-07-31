@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+	background-image:url("https://networkknt.com/wp-content/uploads/2022/05/5RXG37S6INCVHCO2ZFNVZ4KY2E-1.jpg"),url("https://networkknt.com/wp-content/uploads/2022/05/5RXG37S6INCVHCO2ZFNVZ4KY2E-1.jpg");
+	background-size:100%;
+	background-repeat: no-repeat,repeat;
+	min-height: 380px;
+}
+.header {
+  padding: 40px;
+  text-align: center;
+  background: #127a7a;
+  color: white;
+  font-size: 30px;
+}
+.IDnumber{
+width :200px;
+height:40px;
+background-color:#f3f1ef;
+color:rgb(0, 0, 0);
+font-family :"calibri";
+font-size:18px;
+border-radius :2px;
+border:10px;
+border-color: black;
+}
+.form-submit-button {
+
+	color: #fff;
+	width :250px;
+height:50px;
+	border: 3px solid #000000;
+	font-family :"calibri";
+	font-size:21px;
+	border-radius :7px;
+	background-image: -webkit-linear-gradient(30deg, #127a7a 50%, transparent 50%);
+	background-image: linear-gradient(30deg, #127a7a 50%, transparent 50%);
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position: 0%;
+	-webkit-transition: background 300ms ease-in-out;
+	transition: background 300ms ease-in-out;
+  }
+  .form-submit-button:hover {
+	font-family :"calibri";
+	font-size:21px;
+	border-radius :9px;
+	width :250px;
+	height:60px;
+	background-position: 100%;
+	color: #0f4d4d;
+  }
+.Final{
+border:1px solid black;
+border:none;
+border-radius: 7px;
+box-shadow: 5px 5px 5px 5px rgb(213, 214, 209);
+padding:15px;
+width:700px;
+background-color: rgb(255, 255, 255);
+}
+</style>
+</head>
+<body>
+	<div class="header">
+		<h1>Welcome!!</h1>
+		<p>Predict your Surgery Outcome Here :)</p>
+	  </div> <br> 
+	<form action="." method="POST">
+	<div class="Final">	
+      <table style="width: 100%">
+      	<tr style="height: 50px"><td><b style="font-size:larger;font-family: monospace;font-size:20px;color: #127a7a;">HOSPITAL ID </b></td><td>
+		 <input type="number" name="hospital_id"class="IDnumber" placeholder="Enter ID"></td></tr>
+		
+		<tr style="height: 50px"><td><b style="font-size:larger;font-family: monospace;font-size:20px;color: #127a7a;">AGE </b></td><td>
+		 <input type="number" name="age"class="IDnumber" placeholder="Enter AGE"></td></tr>
+		
+		<tr style="height: 50px"><td><b style="font-family: monospace;font-size:20px;color: #127a7a;">GENDER </b></td>
+			<td><input type="radio" name="gender" value="1" class="rad"><b style="font-size:larger;font-family:Arial;font-size:15px;color: rgb(81,140,236);">MALE</b>
+		<input type="radio" name="gender" value="0" class="rad"><b style="font-size:larger;font-family:Arial;font-size:15px;color: rgb(236,81,194);">FEMALE</b></td></tr>
+		
+	<tr style="height: 50px"><td><hr>	
+        <b style="font-size:larger;font-family: monospace;font-size:20px;">AIDS</b></td>
+	
+	<td><input type="radio" name="aids" value="1" class="rad"><b style="font-size:larger;font-family:Arial;font-size:15px;color: rgb(245, 142, 83);">YES</b>
+	
+	<input type="radio" name="aids"value="0" class="rad"><b style="font-size:larger;font-family:Arial;font-size:15px;color: rgb(83, 159, 245);">NO</b></td></tr>
+	
+	<tr style="height: 50px"><td><hr>
+	<b style="font-size:larger;font-family: monospace;font-size:20px;">Cirrhosis</b></td>
+	
+	<td><input type="radio" name="cirrhosis" value="1" class="rad"><b style="font-size:larger;font-family:Arial;font-size:15px;color: rgb(245, 142, 83);">YES</b>
+	
+	<input type="radio" name="cirrhosis"value="0" class="rad"><b style="font-size:larger;font-family:Arial;font-size:15px;color: rgb(83, 159, 245);">NO</b></td></tr>
+	
+	<tr style="height: 50px"><td>	<hr>
+	<b style="font-size:larger;font-family: monospace;font-size:20px;">Diabetes Mellitus</b></td>
+
+	<td><input type="radio" name="diabetes_mellitus" value="1" class="rad"><b style="font-size:larger;font-family:Arial;font-size:15px;color: rgb(245, 142, 83);">YES</b>
+
+	<input type="radio" name="diabetes_mellitus" value="0" class="rad"><b style="font-size:larger;font-family:Arial;font-size:15px;color: rgb(83, 159, 245);">NO</b></td></tr>
+	
+	<tr style="height: 50px"><td>	<hr>
+	<b style="font-size:larger;font-family: monospace;font-size:20px;">Hepatic Failure</b></td>
+	
+	<td><input type="radio" name="hepatic_failure" value="1" class="rad"><b style="font-size:larger;font-family:Arial;font-size:15px;color: rgb(245, 142, 83);">YES</b>
+
+	<input type="radio" name="hepatic_failure" value="0" class="rad"><b style="font-size:larger;font-family:Arial;font-size:15px;color: rgb(83, 159, 245);">NO</b></td></tr>
+	
+	<tr style="height: 50px"><td><hr>
+	<b style="font-size:larger;font-family: monospace;font-size:20px;">Immuno-Suppression</b></td>	
+	
+	<td><input type="radio" name="immunosuppression" value="1" class="rad"><b style="font-size:larger;font-family:Arial;font-size:15px;color: rgb(245, 142, 83);">YES</b>
+	
+	<input type="radio" name="immunosuppression" value="0" class="rad"><b style="font-size:larger;font-family:Arial;font-size:15px;color: rgb(83, 159, 245);">NO</b></td></tr>
+	
+	<tr style="height: 50px"><td><hr>
+	<b style="font-size:larger;font-family: monospace;font-size:20px;">Leukemia</b></td>
+	
+	<td><input type="radio" name="leukemia" value="1" class="rad"><b style="font-size:larger;font-family:Arial;font-size:15px;color: rgb(245, 142, 83);">YES</b>
+
+	<input type="radio" name="leukemia" value="0" class="rad"><b style="font-size:larger;font-family:Arial;font-size:15px;color: rgb(83, 159, 245);">NO</b></td></tr>
+		
+		<tr style="height: 50px"><td><hr>
+		<b style="font-size:larger;font-family: monospace;font-size:20px;">Lymphoma</b></td>
+	
+	<td><input type="radio" name="lymphoma" value="1" class="rad"><b style="font-size:larger;font-family:Arial;font-size:15px;color: rgb(245, 142, 83);">YES</b>
+
+	<input type="radio" name="lymphoma" value="0" class="rad"><b style="font-size:larger;font-family:Arial;font-size:15px;color: rgb(83, 159, 245);">NO</b></td></tr>
+
+	<tr style="height: 50px"><td><hr>
+	<b style="font-size:larger;font-family: monospace;font-size:20px;">Solid Tumor With Metastasis</b></td>
+	
+	<td><input type="radio" name="solid_tumor_with_metastasis" value="1" class="rad"><b style="font-size:larger;font-family:Arial;font-size:15px;color: rgb(245, 142, 83);">YES</b>
+
+	<input type="radio" name="solid_tumor_with_metastasis" value="0" class="rad"><b style="font-size:larger;font-family:Arial;font-size:15px;color: rgb(83, 159, 245);">NO</b></td></tr></table>		
+</div>
+<br>
+<center>
+<input type="submit" name="" class="form-submit-button">
+</center>
+<h1>	
+</h1>	
+</form>
+</body>
+</html>
